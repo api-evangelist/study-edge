@@ -1,14 +1,11 @@
 aid: study-edge
 name: Study Edge
-description: >-
-  Study Edge is an education technology company that builds online learning,
-  tutoring, and test-preparation platforms for students. Its products deliver
-  on-demand instructional video, live and scheduled study sessions, practice
-  problems, and course-specific study resources, and the company is known for
-  operating statewide math learning platforms such as Algebra Nation / Math
-  Nation. Study Edge is a consumer- and institution-facing learning service
-  rather than a developer platform; as of this profile it publishes no public
-  developer API, SDK, or API documentation. It is tracked in the API Evangelist
+description: Study Edge is an education technology company that builds online learning, tutoring, and
+  test-preparation platforms for students. Its products deliver on-demand instructional video, live and
+  scheduled study sessions, practice problems, and course-specific study resources, and the company is
+  known for operating statewide math learning platforms such as Algebra Nation / Math Nation. Study Edge
+  is a consumer- and institution-facing learning service rather than a developer platform; as of this
+  profile it publishes no public developer API, SDK, or API documentation. It is tracked in the API Evangelist
   network as an a16z portfolio company.
 url: https://raw.githubusercontent.com/api-evangelist/study-edge/refs/heads/main/apis.yml
 x-type: company
@@ -30,7 +27,7 @@ accessModel:
   method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-08-08'
 tags:
 - Company
 - Education
@@ -53,6 +50,8 @@ common:
   url: https://www.studyedge.com/pages/help-center
 - type: SignUp
   url: https://www.studyedge.com/users/sign_in
+- type: Login
+  url: https://www.studyedge.com/users/sign_in
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -63,3 +62,5 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-merged-from:
+- studyedge
